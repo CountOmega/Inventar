@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup Label="Globals">
-    <ProjectGuid>6449e950-4899-48a1-8681-cb5a310833fd</ProjectGuid>
-    <ManifestPath>Cargo.toml</ManifestPath>
-  </PropertyGroup>
-  <Import Project="$(MSBuildExtensionsPath)\VisualRust\VisualRust.Rust.targets" />
-  <Import Project="$(MSBuildThisFileName).InMemory.Targets" Condition="Exists('$(MSBuildThisFileName).InMemory.Targets')" />
-</Project>
