@@ -1,0 +1,9 @@
+[package]
+
+name = "inventar"
+version = "0.0.1"
+authors = [ "the_count" ]
+
+[dependencies]
+glium = "0.16.0"
+image = "0.13.0"
