@@ -12,7 +12,7 @@ impl Item
     fn remove()
     {}
 
-    fn item_number()
+    pub fn item_number()
     {
         
     }

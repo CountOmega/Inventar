@@ -1,6 +1,6 @@
 use glium;
-use Item::Item;
-use Inventar;
+use base_storage::Item::Item;
+use base_storage::Inventar;
 
 
 
@@ -8,7 +8,8 @@ struct Slot
 {
     slot_number:i32, 
     xdisplay:i32, 
-    ydisplay:i32  
+    ydisplay:i32,  
+    size:i32
 
 }
 
@@ -28,30 +29,31 @@ impl Slot
         y=y_display;
     }
     */
-    fn give_anzahl(&self)
+    pub fn give_number(&self)->i32
     {
-        return self.number;
+        return self.slot_number;
     }
 
-    fn is_empty(&self)
+    fn is_empty(&self)->bool
     {
-        if give_anzahl(&self)==0
+        if give_number(&self)==0
         {
             return true;
         }
+        else {return false;}
     }
    
 
     fn inc(&self)
     {
-        self.size = give_anzahl();
+        self.size = give_number();
         self.size=self.size+1;
         //i.add();
     }
 
     fn dec(&self)
     {
-        self.size = give_anzahl();
+        self.size = give_number();
         self.size=self.size-1;
         //i.add();
     }
@@ -60,7 +62,7 @@ impl Slot
     {
         if is_empty()==false
         { 
-            //i.add(item_number(i));
+            i.add(item_number(i));
         }
         
     }
