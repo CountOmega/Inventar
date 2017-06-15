@@ -6,3 +6,4 @@ authors = ["the_Count"]
 [dependencies]
 glium = "0.16.0"
 image = "0.14.0"
+hexf = "0.1.0"

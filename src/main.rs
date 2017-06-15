@@ -1,7 +1,11 @@
 extern crate glium;
 extern crate image;
+extern crate hexf;
 
-
+mod Inventar;
+mod Item;
+mod Slot;
+mod Stack;
 
 
 
@@ -12,6 +16,5 @@ extern crate image;
 
 fn main()
 {
-    //let display = draw();
-    //let display = load();
+    
 }

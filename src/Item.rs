@@ -1,12 +1,12 @@
 
-struct Item
+pub struct Item
 {
-    id:i32;
+    id:i32
 }
 
 impl Item
 {
-    fn add()
+    pub fn add()
     {}
 
     fn remove()
