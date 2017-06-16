@@ -152,6 +152,7 @@ impl BlockRegistry {
             renewable:bool,
             inflammable:bool,
             drops,
+            stackable,
             id,
             metadata
         }
