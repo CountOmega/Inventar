@@ -4,7 +4,7 @@ use base_storage::Inventar;
 
 
 
-struct Slot
+pub struct Slot
 {
     slot_number:i32, 
     xdisplay:i32, 
@@ -34,7 +34,7 @@ impl Slot
         return self.slot_number;
     }
 
-    fn is_empty(&self)->bool
+    pub fn is_empty(&self)->bool
     {
         if give_number(&self)==0
         {
@@ -48,21 +48,21 @@ impl Slot
     {
         self.size = give_number();
         self.size=self.size+1;
-        //i.add();
+        Item::add();
     }
 
     fn dec(&self)
     {
         self.size = give_number();
         self.size=self.size-1;
-        //i.add();
+        Item::add();
     }
 
     fn insert(&self)
     {
         if is_empty()==false
         { 
-            i.add(item_number(i));
+            Item::add(Item::item_number());
         }
         
     }

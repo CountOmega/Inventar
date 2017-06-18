@@ -6,7 +6,7 @@ pub struct Item
 
 impl Item
 {
-    pub fn add()
+    pub fn add(&self)
     {}
 
     fn remove()
@@ -17,25 +17,33 @@ impl Item
         
     }
 
-    pub fn give_ID(&self)
+    pub fn give_ID(&self)->i32
     {
         return self.id;
     }
 
-    pub fn give_item_data(&self)
+    pub fn give_item_data(&self)->Self
     {
         struct id
         {
-            id_name:str,
+            id_name:String,
             hex_val:f32
         }
 
         struct item_data
         {
+            id,
             durability:i32,
             stackable:bool,
-            id
+            
         }
-        return item_data;
-    }
+        impl item_data
+        {
+            fn z()->(i32, bool, struct)
+            {
+                return self.item_data;
+            }
+        }
+        
+    }  
 }

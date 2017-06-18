@@ -1,6 +1,4 @@
-use base_storage::Item::Item::give_ID;
-use base_storage::Item::Item::give_item_data;
-use base_storage::Slot::Slot::give_number;
+use base_storage::Slot::Slot;
 
 
 pub struct stack
@@ -20,11 +18,11 @@ impl stack
 
     fn dec(&self)
     {
-        self.stack_size = stack_size-1;
+        self.stack_size = self.stack_size-1;
     }
 
      fn inc(&self)
     {
-        self.stack_size = stack_size+1;
+        self.stack_size = self.stack_size+1;
     }
 }

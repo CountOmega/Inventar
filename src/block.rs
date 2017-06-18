@@ -136,7 +136,7 @@ impl BlockRegistry {
         struct meta_data
         {
             has_metadata:bool,
-            metadata:str,
+            metadata:String,
             blockstate[22]:arr
         }
 
@@ -145,7 +145,7 @@ impl BlockRegistry {
             gravitation:bool,
             transparency:bool,
             bright:bool,
-            piston:Vec,
+            piston:Vec, //
             expl_resistance:i8,
             hardness:f32,
             tool, 
