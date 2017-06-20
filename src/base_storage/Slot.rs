@@ -48,21 +48,21 @@ impl Slot
     {
         self.size = give_number();
         self.size=self.size+1;
-        Item::add();
+        Item::add(Item::item_number());
     }
 
     fn dec(&self)
     {
         self.size = give_number();
         self.size=self.size-1;
-        Item::add();
+        Item::add(Item::item_number());
     }
 
     fn insert(&self)
     {
         if is_empty()==false
         { 
-            Item::add(Item::item_number());
+                                
         }
         
     }
