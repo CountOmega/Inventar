@@ -1,4 +1,4 @@
-use base_storage::Slot::Slot;
+use base_storage::slot::slot;
 
 
 pub struct stack

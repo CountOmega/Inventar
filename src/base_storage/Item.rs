@@ -1,11 +1,11 @@
-pub struct Item
+pub struct item
 {
     numeric_id:i32,
 
 
 }
 
-impl Item
+impl item
 {
 
     pub fn give_ID(&self)->i32

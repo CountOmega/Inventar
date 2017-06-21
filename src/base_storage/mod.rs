@@ -1,4 +1,4 @@
-mod Inventar;
-mod Item;
-mod Slot;
-mod Stack;
+mod inventory;
+mod item;
+mod slot;
+mod stack;

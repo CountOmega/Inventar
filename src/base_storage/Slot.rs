@@ -1,10 +1,10 @@
 use glium;
-use base_storage::Item::Item;
-use base_storage::Inventar;
+use base_storage::item::item;
+use base_storage::inventory;
 
 
 
-pub struct Slot
+pub struct slot
 {
     slot_number:i32, 
     xdisplay:i32, 
@@ -13,7 +13,7 @@ pub struct Slot
 
 }
 
-impl Slot
+impl slot
 
 {
      fn zeichnen()
@@ -48,14 +48,14 @@ impl Slot
     {
         self.size = give_number();
         self.size=self.size+1;
-        Item::add(Item::item_number());
+        //insert(amount);
     }
 
     fn dec(&self)
     {
         self.size = give_number();
         self.size=self.size-1;
-        Item::add(Item::item_number());
+        //insert(amount);
     }
 
     fn insert(&self)
