@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{C7CBDBED-50CA-46FC-BE3B-1D7809D42A0A}") = "Inventar", "Inventar.rsproj", "{6449E950-4899-48A1-8681-CB5A310833FD}"
+Project("{C7CBDBED-50CA-46FC-BE3B-1D7809D42A0A}") = "inventory", "inventory.rsproj", "{6449E950-4899-48A1-8681-CB5A310833FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
