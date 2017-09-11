@@ -1,22 +1,14 @@
+#![allow(warnings)]
 extern crate glium;
 extern crate image;
 
 
 
-mod base_storage;
+mod menu;
 
-
-use menu;
-
-
-
-
-
-
-
-
+use menu::main_menu::draw();
 
 fn main()
 {
-    
+     draw();
 }

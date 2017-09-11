@@ -23,7 +23,7 @@
 
         impl id
         {
-            //convert inf f32 to hex
+            //empty meanwhile
         }
 
         struct tool
@@ -57,6 +57,5 @@
         }
         return block_data;
     }
-//zas
 
 }
